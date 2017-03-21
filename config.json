@@ -1,0 +1,76 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "aa4ded7a2d22e21c3cfe775efe267120",
+      "css": "connectdevelop",
+      "code": 61966,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e1597911f34fea0a188ae51fe4a2d9a9",
+      "css": "stackoverflow",
+      "code": 61804,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "50fbbd926b2a64fcaf384788056c0e43",
+      "css": "gwallet",
+      "code": 61934,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e3a73480599b09c84f6657ef2e081abd",
+      "css": "modx",
+      "code": 62085,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "fc649ed0a69a0a1916ac6d5125234183",
+      "css": "fort-awesome",
+      "code": 62086,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0259fec71de1f22e70877ca024b634fd",
+      "css": "linode",
+      "code": 62136,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "653750436fc99eeb29ccd487e6a5bfa6",
+      "css": "school",
+      "code": 59444,
+      "src": "maki"
+    },
+    {
+      "uid": "57a4f84c40a0c44d47387105f162a427",
+      "css": "youtube",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "e566d3f1d24f22981f6552d5188e7265",
+      "css": "gplus",
+      "code": 59393,
+      "src": "zocial"
+    },
+    {
+      "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
+      "css": "facebook",
+      "code": 59394,
+      "src": "zocial"
+    },
+    {
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "code": 59395,
+      "src": "zocial"
+    }
+  ]
+}
