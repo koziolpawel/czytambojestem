@@ -111,7 +111,7 @@
 /*polecane ksiazki*/
 .book
 {
-    width: 1000px;
+    width: 100%px;
     margin-left: auto;
     margin-right: auto;
     text-align:justify;
@@ -148,6 +148,41 @@
     color: #E8AC4B;
     border-bottom: 2px solid #E8AC4B; 
     padding-bottom: 5px;
+}
+
+#second
+{
+    width: 100%;
+    background-color:#f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px;
+}
+
+.second_text
+{
+    float: left;
+    width: 300px;
+    color:grey;
+    height: 400px;
+    font-size: 14px;
+    font: inherit;
+    padding: 10px;
+
+    border-radius: 5px;
+}
+
+.second_foto
+{
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+ 
 }
 
 
