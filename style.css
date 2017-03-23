@@ -194,61 +194,6 @@
 
 }
 
-.socialdivs
-{
-    width:1000px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.fb
-{
-    width: 250px;
-    height: 155px;
-    float:left;
-}
-
-.fb:hover
-{
-    background-color: #4668b3
-}
-
-.yt
-{
-    width: 250px;
-    height: 155px;
-    float:left;
-}
-
-.yt:hover
-{
-    background-color: #d94348;
-}
-
-.tw
-{
-    width: 250px;
-    height: 155px;
-    float:left;
-}
-
-.tw:hover
-{
-    background-color: #3095d3;
-}
-
-.gplus
-{
-    width: 250px;
-    height: 155px;
-    float:left;
-}
-
-.gplus:hover
-{
-    background-color: #d95333;
-}
-
 .footer
 {
     padding: 20px;
@@ -256,14 +201,14 @@
     font-size: 12px;
     background-color: #222222;
 }
-/*przyklejanie się menu, klasa css o nazwie sticky*/
+
 .sticky
 {
     width: 100%;
-    position:fixed; /*fixed - pozycja stala, sztywna, poniej oznacznie gdzie*/
+    position:fixed; 
     left: 0;
     top: 0;
-    z-index: 100; /*cos jak glebia, pokrywanie sie, zasłanianie*/
+    z-index: 100;
 }
 
 /*lista menu*/
@@ -271,19 +216,19 @@ ol
 {
     padding: 0;
     margin: 0;
-    list-style-type: none; /*typ wystylizowania listy, brak jest numerow*/
+    list-style-type: none; 
     font-size: 16px;
     height: 25px;
-    line-height: 200%; /*jak wiele miejsca w pionie zawiera jedna linia tekstu - interlinia*/
-    display: inline-block; /* konkurencja dla float left - elementy blokowe ukladajace sie obok siebe*/
+    line-height: 200%; 
+    display: inline-block;
 
 }
 
-ol a /*stylizujemy hiperlacz, ktore znajda sie w wewnatrz listy ol, a to link*/
+ol a 
 {
     color: #ffffff;
     text-decoration: none;
-    display: block; /*zachwouje sie jak div, element blokowy*/
+    display: block; 
 }
 
 ol > li
@@ -296,8 +241,7 @@ ol > li
 
 
 
-ol > li:hover > a /*stylizujemy hiperlacze a*/
-{
+ol > li:hover > a 
     color: #393A52;
 }
 
@@ -310,8 +254,7 @@ ol > li > ul
     display: none;
 }
 
-ol > li:hover > ul /*pokazuje po najechaniu rozwijane menu*/
-{
+ol > li:hover > ul 
     display: block;
 }
 
@@ -319,7 +262,7 @@ ol > li:hover > ul /*pokazuje po najechaniu rozwijane menu*/
 ol > li > ul > li
 {
     background-color: #656891;
-    position: relative;/* relatywna pozycja, ustawia sie, zasłania reszte */
+    position: relative;
     z-index: 100;
 }
 
@@ -328,7 +271,7 @@ ol > li > ul > li:hover
     background-color: #656891;
 }
 
-ol > li > ul > li:hover > a /*stylizowanie linku rozwijanego*/
+ol > li > ul > li:hover > a 
 {
     color: #393A52;
 }
