@@ -32,7 +32,7 @@
 /* znaczek na logo */
 .gwallet
 {
-    color:#white;
+    color: white;
     text-align:center;
 }
 
@@ -43,6 +43,7 @@
     background-color: #656891;
     text-align: center;
     height: 30px;
+    display: block;
 
 }
 
@@ -50,18 +51,21 @@
 .foto
 {
     background-image: url(img/books.jpg);
-    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .cytat
 {
-    margin-left: auto;
-    margin-right: auto;
     width: 600px;
     font-size: 40px;
     color: #ffffff;
     padding-top: 200px;
     font-style: italic;
+    position: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
 }
   /*  background: linear-gradient(
       rgba(0,0,0,0.4),
@@ -194,6 +198,61 @@
 
 }
 
+.socialdivs
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fb
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.fb:hover
+{
+    background-color: #4668b3
+}
+
+.yt
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.yt:hover
+{
+    background-color: #d94348;
+}
+
+.tw
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.tw:hover
+{
+    background-color: #3095d3;
+}
+
+.gplus
+{
+    width: 250px;
+    height: 155px;
+    float:left;
+}
+
+.gplus:hover
+{
+    background-color: #d95333;
+}
+
 .footer
 {
     padding: 20px;
@@ -201,14 +260,14 @@
     font-size: 12px;
     background-color: #222222;
 }
-
+/*przyklejanie się menu, klasa css o nazwie sticky*/
 .sticky
 {
     width: 100%;
-    position:fixed; 
+    position:fixed; /*fixed - pozycja stala, sztywna, poniej oznacznie gdzie*/
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 100; /*cos jak glebia, pokrywanie sie, zasłanianie*/
 }
 
 /*lista menu*/
@@ -216,19 +275,19 @@ ol
 {
     padding: 0;
     margin: 0;
-    list-style-type: none; 
+    list-style-type: none; /*typ wystylizowania listy, brak jest numerow*/
     font-size: 16px;
     height: 25px;
-    line-height: 200%; 
-    display: inline-block;
+    line-height: 200%; /*jak wiele miejsca w pionie zawiera jedna linia tekstu - interlinia*/
+    display: inline-block; /* konkurencja dla float left - elementy blokowe ukladajace sie obok siebe*/
 
 }
 
-ol a 
+ol a /*stylizujemy hiperlacz, ktore znajda sie w wewnatrz listy ol, a to link*/
 {
     color: #ffffff;
     text-decoration: none;
-    display: block; 
+    display: block; /*zachwouje sie jak div, element blokowy*/
 }
 
 ol > li
@@ -241,7 +300,8 @@ ol > li
 
 
 
-ol > li:hover > a 
+ol > li:hover > a /*stylizujemy hiperlacze a*/
+{
     color: #393A52;
 }
 
@@ -254,7 +314,8 @@ ol > li > ul
     display: none;
 }
 
-ol > li:hover > ul 
+ol > li:hover > ul /*pokazuje po najechaniu rozwijane menu*/
+{
     display: block;
 }
 
@@ -262,7 +323,7 @@ ol > li:hover > ul
 ol > li > ul > li
 {
     background-color: #656891;
-    position: relative;
+    position: relative;/* relatywna pozycja, ustawia sie, zasłania reszte */
     z-index: 100;
 }
 
@@ -271,7 +332,7 @@ ol > li > ul > li:hover
     background-color: #656891;
 }
 
-ol > li > ul > li:hover > a 
+ol > li > ul > li:hover > a /*stylizowanie linku rozwijanego*/
 {
     color: #393A52;
 }
