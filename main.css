@@ -1,0 +1,99 @@
+﻿body
+{
+    background-color:#5A5E63;
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}    
+
+
+
+.page-header
+{
+    background: url(img/books.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo
+{
+
+    text-align: center;
+}
+
+.navigation-menu
+{
+    width: 100vw;
+    text-align: center;
+    color: #000000;
+    padding-left: 0px;;
+}
+
+.navigation-menu ul
+{
+    background: white;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.navigation-menu a
+{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    transition: background 0.1s;
+        max-width: 500px;
+}
+.navigation-menu a:hover
+{
+    color:#E8AC4B;
+
+    border-top: 1px solid #E8AC49;
+    border-bottom: 1px solid #E8AC49;
+}
+
+@media screen and (max-width: 640px)
+{
+    .navigation-menu ul
+    {
+        flex-direction: column;
+    }
+}
+
+
+
+.text-header
+{
+    width: 50vw;
+    max-width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    color: #E8AC4B;
+    font-size: 40px;
+}
+
+.article
+{
+    color: #ffffff;
+
+}
+
+.article-picture
+{
+    width: 25%;
+   
+
+}
